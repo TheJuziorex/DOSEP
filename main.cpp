@@ -3,6 +3,7 @@
 #include <fstream>
 #include <stdlib.h>
 #include "loading.cpp"
+#include "diskpart.cpp"
 
 using namespace std;
 
@@ -31,6 +32,9 @@ int main(){
         }
         else if(recomm == "exit"){
             exit(1);
+        }
+        else if(recomm == "fdisk"){
+            diskpart();
         }
     }
 }

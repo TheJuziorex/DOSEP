@@ -5,8 +5,8 @@ using namespace std;
 
 int loadingBar(){
     system("cls");
-    SetConsoleCP(437);
-    SetConsoleOutputCP(437);
+    SetConsoleCP(837);
+    SetConsoleOutputCP(837);
     int bar = 177, barTwo = 219;
     cout << "\n\n\n\t\t\t\tStarting DOSEP...";
     cout << "\n\n\n\t\t\t\t";

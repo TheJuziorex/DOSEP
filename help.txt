@@ -1,3 +1,5 @@
 DOSEP system commands:
 
-HELP the place where you are now, a set of system commands
+FDISK           a tool used to perform operations on a disk and its partitions
+HELP            the place where you are now, a set of system commands
+EXIT            exit from DOESP
