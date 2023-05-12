@@ -12,7 +12,7 @@ Funkcje planowane w projekcie:
 - symulacja loading screenu [x]
 - edytor tekstu []
 - przechodzenie pomiędzy katalogami []
-- tworzenie plikow i folderow []
+- tworzenie plikow i folderow [x]
 - mozliwosc wyswietlania zawartosci folderow[]
 - spis komend [x]
 
@@ -31,7 +31,7 @@ Features planned in the project:
 - simulation of loading screen [x]
 - text editor []
 - moving between directories []
-- creating files and folders []
+- creating files and folders [x]
 - the ability to display the contents of folders[]
 - list of commands [x]
 
