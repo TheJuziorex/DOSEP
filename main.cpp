@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include "loading.cpp"
 #include "diskpart.cpp"
+#include "version.cpp"
 
 using namespace std;
 
@@ -35,6 +36,9 @@ int main(){
         }
         else if(recomm == "fdisk"){
             diskpart();
+        }
+        else if(recomm == "ver"){
+            verSys();
         }
     }
 }
