@@ -5,6 +5,7 @@
 #include "loading.cpp"
 #include "diskpart.cpp"
 #include "version.cpp"
+#include "filecreator.cpp"
 
 using namespace std;
 
@@ -39,6 +40,23 @@ int main(){
         }
         else if(recomm == "ver"){
             verSys();
+        }
+        else if(recomm == "mkdir"){
+            std::wcout << L"Folder name: ";
+            std::wstring dirname;
+            std::wcin >> dirname;
+            create_directory(dirname);
+        }
+        else if(recomm == "cf"){
+            std::wcout << L"File name: ";
+            std::wstring filename;
+            std::wcin >> filename;
+
+            std::wcout << L"Extension name: ";
+            std::wstring extension;
+            std::wcin >> extension;
+
+            create_file(filename, extension);
         }
     }
 }
