@@ -6,6 +6,7 @@
 #include "diskpart.cpp"
 #include "version.cpp"
 #include "filecreator.cpp"
+#include "fileEditor.cpp"
 
 using namespace std;
 
@@ -58,6 +59,11 @@ int main(){
 
             create_file(filename, extension);
         }
+        else if(recomm == "fiedit"){
+                std::string fileName;
+                std::cout << "File name: ";
+                std::cin >> fileName;
+                editFile(fileName);
+        }
     }
 }
-

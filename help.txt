@@ -6,3 +6,4 @@ EXIT            exit from DOESP
 VER             your DOSEP version
 MKDIR           create a directory
 CF              create a file
+FIEDIT          simple text editor
