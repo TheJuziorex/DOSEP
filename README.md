@@ -10,7 +10,7 @@ Projekt nie korzysta w żadnym stopniu z kodu źródłowego żadnego wydania DOS
 Funkcje planowane w projekcie:
 
 - symulacja loading screenu [x]
-- edytor tekstu []
+- edytor tekstu [X]
 - przechodzenie pomiędzy katalogami []
 - tworzenie plikow i folderow [x]
 - mozliwosc wyswietlania zawartosci folderow[]
@@ -29,7 +29,7 @@ The project does not use the source code of any DOS release in any way.
 Features planned in the project:
 
 - simulation of loading screen [x]
-- text editor []
+- text editor [X]
 - moving between directories []
 - creating files and folders [x]
 - the ability to display the contents of folders[]
